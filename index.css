@@ -1,0 +1,57 @@
+/* index.css */
+
+/* Stylování pro úvodní stránku */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #004d4d; /* Petrolejové pozadí */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.intro-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.intro-form h1 {
+    color: #ccc; /* Chromové písmo */
+    margin-bottom: 20px;
+}
+
+.intro-form input[type="text"], .intro-form input[type="password"] {
+    width: 100%;
+    padding: 10px 10px 0 0;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.intro-form a, .intro-form input[type="submit"] {
+    display: inline-block;
+    width: 200px;          /* Nastavíme pevnou šířku */
+    height: 40px;          /* Nastavíme pevnou výšku */
+    line-height: 40px;     /* Vertikálně centrovaný text */
+    margin: 10px;
+    padding: 0;            /* Vynulujeme padding */
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    text-align: center;    /* Zajistíme centrování textu */
+    font-size: 16px;       /* Přidáme velikost písma */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.intro-form a:hover, .intro-form input[type="submit"]:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
